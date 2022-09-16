@@ -1,0 +1,7 @@
+<!--index.wxml-->
+
+<view class="container" bindtap="changeColor">
+  <view class="showTime rotate" style="position: relative;">
+    <text id="text" style="position: absolute;  top: 50%;left: 50%;margin-top: -130rpx;margin-left: -40rpx;color: {{color}};">{{Time}}</text>
+  </view>
+</view>
